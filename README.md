@@ -8,7 +8,7 @@ A cmpt350 course project (GoOrder)
 * Coded in HTML, Jsp, Javascript and Jquery mobile for client side webpage
 * Designed JSON form for transferring data between clients webpage and remote database
 * Used NetBeans IDE during development processing
-* Done with Yang Zeng and Sam Ruo in 2014
+* Done with Yang Zeng and Sam Ruo at the beginning of 2014
 
 ### Screen Shot
 

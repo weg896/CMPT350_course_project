@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="js/jquery.mobile-1.4.2/jquery.mobile-1.4.2.css"/>
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <script src="js/order.js"></script>
+</head>
+
+<body>
+
+    <!-- ################################################################################
+                                    RESTURANT LIST
+             ############################################################################# -->
+
+    <div data-role="page" id="booklist">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="b">
+			<h1>Resturants</h1>
+            <a href="#shoppingcart" class="ui-btn ui-btn-right">shopping cart</a>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#resturant1" data-transition="slide">
+                        <h4>Umi Sushi</h4>
+                        <p>Japanese Resturant</p>
+                        <p>Sushi, Salad</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#resturant2" data-transition="slide">
+                        <h4>Harvey's</h4>
+                        <p>American Resturant</p>
+                        <p>Hamburger, Fries</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#resturant3" data-transition="slide">
+                        <h4>Extreme Pita</h4>
+                        <p>Mexcio Resturant</p>
+                        <p>Tacco</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- ################################################################################
+                                    RESTURANT 1 Umi Sushi
+             ############################################################################# -->
+
+    <div data-role="page" id="resturant1">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="b">
+            <a href="#" class="ui-btn" data-rel="back">Go Back</a>
+            <h1>Umi Sushi</h1>
+            <a href="#shoppingcart" class="ui-btn ui-btn-right">shopping cart</a>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true" id="resturant1list">
+                <li>
+                    <a href="#" onclick="addToCart('UmiSushi', 'Salmon Rose', 6.5)">
+                        <img src="img/r1_1.jpg">
+                        <h4>Salmon Rose</h4>
+                        <p>Sushi</p>
+                        <p>Price: $ 6.5</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="addToCart('UmiSushi', 'Crab Sushi', 5.8)">
+                        <img src="img/r1_2.jpg">
+                        <h4>Crab Sushi</h4>
+                        <p>Sushi</p>
+                        <p>Price: $ 5.8</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="addToCart('UmiSushi', 'Avocado Handroll', 7.0)">
+                        <img src="img/r1_3.jpg">
+                        <h4>Avocado Handroll</h4>
+                        <p>Handroll</p>
+                        <p>Price: $ 7.0</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="addToCart('UmiSushi', 'Chicken Teriyaki', 7.9)">
+                        <img src="img/r1_4.jpg">
+                        <h4>Chicken Teriyaki</h4>
+                        <p>Chicken</p>
+                        <p>Price: $ 7.9</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="addToCart('UmiSushi', 'Chicken Udon Soup', 7.0)">
+                        <img src="img/r1_5.jpg">
+                        <h4>Chicken Udon Soup</h4>
+                        <p>Soup</p>
+                        <p>Price: $ 7.0</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
+        </div>
+    </div>
+
+    <!-- ################################################################################
+                                    RESTURANT 2 Harvey's
+             ############################################################################# -->
+
+    <div data-role="page" id="resturant2">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="b">
+            <a href="#" class="ui-btn" data-rel="back">Go Back</a>
+            <h1>Harvey's</h1>
+            <a href="#shoppingcart" class="ui-btn ui-btn-right">shopping cart</a>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true" id="resturant2list">
+                <li>
+                    <a href="#" onclick="addToCart('Harveys', 'Great Candian', 6.5)">
+                        <img src="img/r2_1.jpg">
+                        <h4>Great Candian</h4>
+                        <p>Bugers</p>
+                        <p>Price: $ 6.5</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="addToCart('Harveys', 'Grilled Chicken', 6.8)">
+                        <img src="img/r2_2.jpg">
+                        <h4>Grilled Chicken</h4>
+                        <p>Chicken</p>
+                        <p>Price: $ 6.8</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="addToCart('Harveys', 'Grilled Veggie', 6.0)">
+                        <img src="img/r2_3.jpg">
+                        <h4>Grilled Veggie</h4>
+                        <p>Veggie</p>
+                        <p>Price: $ 6.0</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="addToCart('Harveys', 'Grilled Hot Dog', 4.9)">
+                        <img src="img/r2_4.jpg">
+                        <h4>Grilled Hot Dog</h4>
+                        <p>Hot Dog</p>
+                        <p>Price: $ 4.9</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="addToCart('Harveys', 'LIL Origina', 4.0)">
+                        <img src="img/r2_5.jpg">
+                        <h4>L'IL Original</h4>
+                        <p>Kids</p>
+                        <p>Price: $ 4.0</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
+        </div>
+    </div>
+
+    <!-- ################################################################################
+                                    RESTURANT 3 Extreme Pita
+             ############################################################################# -->
+
+    <div data-role="page" id="resturant3">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="b">
+            <a href="#" class="ui-btn" data-rel="back">Go Back</a>
+            <h1>Extreme Pita</h1>
+            <a href="#shoppingcart" class="ui-btn ui-btn-right">shopping cart</a>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true" id="resturant3list">
+                <li>
+                    <a href="#" onclick="addToCart('ExtremePita', 'Grilled Chicken', 6.5)">
+                        <img src="img/r3_1.png">
+                        <h4>Grilled Chicken</h4>
+                        <p>Pitas</p>
+                        <p>Price: $ 6.5</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="addToCart('ExtremePita', 'The Chief', 6.5)">
+                        <img src="img/r3_2.png">
+                        <h4>The Chief</h4>
+                        <p>Pitas</p>
+                        <p>Price: $ 5.8</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
+        </div>
+    </div>
+
+    <!-- ################################################################################
+                                    SHOPPINGCART
+             ############################################################################# -->
+
+    <div data-role="page" id="shoppingcart">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="b">
+            <a href="#" class="ui-btn" data-rel="back">Go Back</a>
+            <h1>Shopping Cart</h1>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true" id="cart_list">
+
+            </ul>
+            <a href="#checkout" data-role="button">Check Out</a>
+        </div>
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
+            <p style="margin-left:20px;display:inline-block;">Price: $</p>
+            <p id="price1" style="display:inline-block;">0</p>
+        </div>
+    </div>
+
+    <!-- ################################################################################
+                                    Check Out
+             ############################################################################# -->
+
+    <div data-role="page" id="checkout">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="b">
+            <a href="#" class="ui-btn" data-rel="back">Go Back</a>
+            <h1>Check Out</h1>
+        </div>
+        <div data-role="content">
+            <form method="post" action="demoform.asp">
+                <div class="ui-field-contain">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname">
+					<label for="date-1">Pick Up Date</label>
+					<input type="date" data-clear-btn="false" name="date-1" id="date-1" value="">
+                    <label for="bday">Pick Up Time</label>
+                    <input type="time" name="bday" id="bday">
+                    <label for="phonenum">Phone Number:</label>
+                    <input type="number" name="phonenum" id="phonenum">
+                </div>
+                <button id="order" onclick="checkOut()" disabled=true>Order</button>
+				<button id="connect" onclick="connection(this)">Connect</button>
+            </form>
+        </div>
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
+            <p style="margin-left:20px;display:inline-block;">Price: $</p>
+            <p id="price2" style="display:inline-block;">0</p>
+        </div>
+    </div>
+</body>
+</html>

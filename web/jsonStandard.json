@@ -1,0 +1,48 @@
+{"orderArray": [
+        {"command": 1,
+            "orderId": 123123,
+            "firstName": "Tom",
+            "lastName": "Lee",
+            "phone": 3388438,
+            "pickUpTime": "2013-02-01 00:00:00",
+            "restaurant": "UmiSushi",
+            "price":55.5,
+            "food": [
+                {"foodName": "chicken", "quantity": 5},
+                {"foodName": "egg", "quantity": 2},
+                {"foodName": "cock", "quantity": 1}
+            ]
+        },
+        {
+            "command": 1,
+            "orderId": 456456,
+            "firstName": "Tom",
+            "lastName": "Lee",
+            "phone": 3388438,
+            "pickUpTime": "2013-02-01",
+            "restaurant": "Harveys",
+            "price":12.5,
+            "food": [
+                {"foodName": "fruit", "quantity": 5},
+                {"foodName": "juice", "quantity": 2},
+                {"foodName": "coffee", "quantity": 1}
+            ]
+        },
+        {
+            "command": 1,
+            "orderId": 789789,
+            "firstName": "Tom",
+            "lastName": "Lee",
+            "phone": 3388438,
+            "pickUpTime": "2013-02-01",
+            "restaurant": "ExtremePita",
+            "price":12.5,
+            "food": [
+                {"foodName": "fish", "quantity": 5},
+                {"foodName": "beef", "quantity": 2},
+                {"foodName": "tea", "quantity": 1}
+            ]
+        }
+    ]
+}
+

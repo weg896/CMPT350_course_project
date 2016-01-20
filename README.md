@@ -1,5 +1,5 @@
-# CMPT350_course_project
-A cmpt350 course project (GoOrder)
+# GoOrder_cmpt350
+GoOrder is a cmpt350 course project
 
 ### Keys of this project
 
